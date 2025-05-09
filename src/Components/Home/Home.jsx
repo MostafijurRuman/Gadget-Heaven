@@ -1,9 +1,12 @@
+import Main from "../Main/Main";
+import Hero from "./Hero";
 
 
 export default function Home() {
   return (
     <div>
-      <h1>This is Home</h1>
+      <Hero></Hero>
+      <Main></Main>
     </div>
   )
 }
