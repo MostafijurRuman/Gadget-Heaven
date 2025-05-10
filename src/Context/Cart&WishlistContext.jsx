@@ -14,7 +14,7 @@ export const CartProvider = ({ children }) => {
 
     const removeFromCart = (itemId) => {
         setCart((prevCart) => prevCart.filter(item => item !== itemId));
-        toast.success(`Product Removed From Your Cart`)
+        toast.error(`Product Removed From Your Cart`)
     };
 
     const addToWishlist = (item) => {
