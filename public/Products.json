@@ -1,126 +1,136 @@
 [
-  {
-    "product_id": "L001",
-    "product_title": "Dell Inspiron 15",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Laptops",
-    "price": 550,
-    "description": "Dell Inspiron 15 with 11th Gen Intel i5 processor.",
-    "Specification": ["8GB RAM", "512GB SSD", "15.6 inch Display"],
-    "availability": true,
-    "rating": 4.5
-  },
-  {
-    "product_id": "L002",
-    "product_title": "HP Pavilion 14",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Laptops",
-    "price": 620,
-    "description": "HP Pavilion with Intel i7 and slim design.",
-    "Specification": ["16GB RAM", "1TB SSD", "14 inch Display"],
-    "availability": true,
-    "rating": 4.7
-  },
-  {
-    "product_id": "L003",
-    "product_title": "MacBook Air M2",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Laptops",
-    "price": 999,
-    "description": "Apple MacBook Air with M2 chip.",
-    "Specification": ["8GB RAM", "256GB SSD", "13.6 inch Retina Display"],
-    "availability": false,
-    "rating": 4.8
-  },
-  {
-    "product_id": "L004",
-    "product_title": "Lenovo IdeaPad Flex 5",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Laptops",
-    "price": 580,
-    "description": "2-in-1 convertible laptop with touch display.",
-    "Specification": ["16GB RAM", "512GB SSD", "Touchscreen"],
-    "availability": true,
-    "rating": 4.3
-  },
-  {
-    "product_id": "L005",
-    "product_title": "Asus VivoBook 15",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Laptops",
-    "price": 510,
-    "description": "Lightweight and fast performance laptop.",
-    "Specification": ["8GB RAM", "1TB HDD", "15.6 inch Display"],
-    "availability": true,
-    "rating": 4.2
-  },
-  {
-    "product_id": "L006",
-    "product_title": "Acer Aspire 7",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Laptops",
-    "price": 570,
-    "description": "Gaming laptop with NVIDIA GTX graphics.",
-    "Specification": ["16GB RAM", "512GB SSD", "NVIDIA GTX 1650"],
-    "availability": true,
-    "rating": 4.6
-  },
-  {
-    "product_id": "P001",
-    "product_title": "iPhone 14",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Phones",
-    "price": 799,
-    "description": "Latest Apple iPhone 14 with A15 Bionic chip.",
-    "Specification": ["128GB Storage", "OLED Display", "Dual Camera"],
-    "availability": true,
-    "rating": 4.9
-  },
-  {
-    "product_id": "P002",
-    "product_title": "Samsung Galaxy S22",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Phones",
-    "price": 850,
-    "description": "Flagship Samsung phone with high performance.",
-    "Specification": ["128GB Storage", "AMOLED Display", "Triple Camera"],
-    "availability": false,
-    "rating": 4.7
-  },
-  {
-    "product_id": "P003",
-    "product_title": "Google Pixel 6",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Phones",
-    "price": 599,
-    "description": "Google's latest phone with stock Android experience.",
-    "Specification": ["128GB Storage", "OLED Display", "Dual Camera"],
-    "availability": true,
-    "rating": 4.5
-  },
-  
-  {
-    "product_id": "A001",
-    "product_title": "Logitech MX Master 3",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Accessories",
-    "price": 99,
-    "description": "Advanced ergonomic wireless mouse.",
-    "Specification": ["Bluetooth", "USB-C Charging", "Customizable Buttons"],
-    "availability": true,
-    "rating": 4.8
-  },
-  {
-    "product_id": "A002",
-    "product_title": "Anker Soundcore Headphones",
-    "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
-    "category": "Accessories",
-    "price": 69,
-    "description": "Noise-canceling over-ear headphones.",
-    "Specification": ["Bluetooth 5.0", "40hr Battery", "ANC"],
-    "availability": true,
-    "rating": 4.4
-  },
+    {
+        "product_id": "L001",
+        "product_title": "Dell Inspiron 15",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Laptops",
+        "price": 550,
+        "description": "Dell Inspiron 15 with 11th Gen Intel i5 processor.",
+        "Specification": ["8GB RAM", "512GB SSD", "15.6 inch Display"],
+        "availability": true,
+        "rating": 4.5,
+        "inStock": true
+    },
+    {
+        "product_id": "L002",
+        "product_title": "HP Pavilion 14",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Laptops",
+        "price": 620,
+        "description": "HP Pavilion with Intel i7 and slim design.",
+        "Specification": ["16GB RAM", "1TB SSD", "14 inch Display"],
+        "availability": true,
+        "rating": 4.7,
+        "inStock": true
+    },
+    {
+        "product_id": "L003",
+        "product_title": "MacBook Air M2",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Laptops",
+        "price": 999,
+        "description": "Apple MacBook Air with M2 chip.",
+        "Specification": ["8GB RAM", "256GB SSD", "13.6 inch Retina Display"],
+        "availability": false,
+        "rating": 4.8,
+        "inStock": false
+    },
+    {
+        "product_id": "L004",
+        "product_title": "Lenovo IdeaPad Flex 5",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Laptops",
+        "price": 580,
+        "description": "2-in-1 convertible laptop with touch display.",
+        "Specification": ["16GB RAM", "512GB SSD", "Touchscreen"],
+        "availability": true,
+        "rating": 4.3,
+        "inStock": true
+    },
+    {
+        "product_id": "L005",
+        "product_title": "Asus VivoBook 15",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Laptops",
+        "price": 510,
+        "description": "Lightweight and fast performance laptop.",
+        "Specification": ["8GB RAM", "1TB HDD", "15.6 inch Display"],
+        "availability": true,
+        "rating": 4.2,
+        "inStock": true
+    },
+    {
+        "product_id": "L006",
+        "product_title": "Acer Aspire 7",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Laptops",
+        "price": 570,
+        "description": "Gaming laptop with NVIDIA GTX graphics.",
+        "Specification": ["16GB RAM", "512GB SSD", "NVIDIA GTX 1650"],
+        "availability": true,
+        "rating": 4.6,
+        "inStock": true
+    },
+    {
+        "product_id": "P001",
+        "product_title": "iPhone 14",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Phones",
+        "price": 799,
+        "description": "Latest Apple iPhone 14 with A15 Bionic chip.",
+        "Specification": ["128GB Storage", "OLED Display", "Dual Camera"],
+        "availability": true,
+        "rating": 4.9,
+        "inStock": true
+    },
+    {
+        "product_id": "P002",
+        "product_title": "Samsung Galaxy S22",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Phones",
+        "price": 850,
+        "description": "Flagship Samsung phone with high performance.",
+        "Specification": ["128GB Storage", "AMOLED Display", "Triple Camera"],
+        "availability": false,
+        "rating": 4.7,
+        "inStock": false
+    },
+    {
+        "product_id": "P003",
+        "product_title": "Google Pixel 6",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Phones",
+        "price": 599,
+        "description": "Google's latest phone with stock Android experience.",
+        "Specification": ["128GB Storage", "OLED Display", "Dual Camera"],
+        "availability": true,
+        "rating": 4.5,
+        "inStock": true
+    },
+    {
+        "product_id": "A001",
+        "product_title": "Logitech MX Master 3",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Accessories",
+        "price": 99,
+        "description": "Advanced ergonomic wireless mouse.",
+        "Specification": ["Bluetooth", "USB-C Charging", "Customizable Buttons"],
+        "availability": true,
+        "rating": 4.8,
+        "inStock": true
+    },
+    {
+        "product_id": "A002",
+        "product_title": "Anker Soundcore Headphones",
+        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "category": "Accessories",
+        "price": 69,
+        "description": "Noise-canceling over-ear headphones.",
+        "Specification": ["Bluetooth 5.0", "40hr Battery", "ANC"],
+        "availability": true,
+        "rating": 4.4,
+        "inStock": true
+    },
     {
         "product_id": "A003",
         "product_title": "Samsung Galaxy Buds Pro",
@@ -130,7 +140,8 @@
         "description": "Premium true wireless earbuds with ANC.",
         "Specification": ["Bluetooth 5.0", "28hr Battery", "IPX7 Water Resistant"],
         "availability": true,
-        "rating": 4.6
+        "rating": 4.6,
+        "inStock": true
     },
     {
         "product_id": "A004",
@@ -141,9 +152,9 @@
         "description": "Active noise cancellation and transparency mode.",
         "Specification": ["Bluetooth 5.0", "24hr Battery", "IPX4 Water Resistant"],
         "availability": true,
-        "rating": 4.7
-    }
-    ,
+        "rating": 4.7,
+        "inStock": true
+    },
     {
         "product_id": "T001",
         "product_title": "Apple iPad Pro 11",
@@ -153,7 +164,8 @@
         "description": "Apple iPad Pro with M1 chip and Liquid Retina display.",
         "Specification": ["128GB Storage", "11 inch Display", "Apple Pencil Support"],
         "availability": true,
-        "rating": 4.9
+        "rating": 4.9,
+        "inStock": true
     },
     {
         "product_id": "T002",
@@ -164,6 +176,7 @@
         "description": "Samsung Galaxy Tab with AMOLED display and S Pen.",
         "Specification": ["128GB Storage", "11 inch Display", "S Pen Included"],
         "availability": true,
-        "rating": 4.8
+        "rating": 4.8,
+        "inStock": true
     }
 ]
