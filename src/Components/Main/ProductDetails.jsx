@@ -1,5 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { FaStar, FaRegStar, FaCartPlus, FaHeart } from "react-icons/fa";
+import { useContext } from "react";
+import { CartContext, WishlistContext } from "../../Context/Cart&WishlistContext";
 
 export default function ProductDetails() {
     const location = useLocation();
@@ -20,6 +22,8 @@ export default function ProductDetails() {
         );
     };
 
+    const { cart, addToCart, removeFromCart } = useContext(CartContext);
+    const { wishlist, addToWishlist, removeFromWishlist } = useContext(WishlistContext);
     return (
         <div className="min-h-screen bg-gray-100">
             {/* Header Section */}
@@ -93,7 +97,7 @@ export default function ProductDetails() {
                         )}
 
                         <div className="mt-6 flex items-center gap-3">
-                            <button className="btn bg-purple-600 text-white hover:bg-purple-700">
+                            <button onClick={()=>addToCart(product.product_id)} className="btn bg-purple-600 text-white hover:bg-purple-700">
                                 Add To Card <FaCartPlus className="ml-2" />
                             </button>
                             <button className="btn btn-outline">

@@ -2,6 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import { useEffect } from "react";
+import { ToastContainer } from 'react-toastify';
 
 const titles = {
     "/": "Home | Gadget Heaven",
@@ -21,6 +22,7 @@ export default function Root() {
         <Header></Header>
         <Outlet></Outlet>
         <Footer></Footer>
+         <ToastContainer />
     </div>
   )
 }

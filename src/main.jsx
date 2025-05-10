@@ -11,6 +11,7 @@ import Home from './Components/Home/Home';
 import Statistics from './Components/Statistics/Statistics';
 import Dashboard from './Components/Dashboard/Dashboard'
 import ProductDetails from './Components/Main/ProductDetails';
+import { CartProvider } from './Context/Cart&WishlistContext';
 
 const router = createBrowserRouter([
   {
@@ -34,13 +35,16 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
+        loader: () => fetch('../public/Products.json'),
       },
     ],
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <CartProvider>
+    <StrictMode>
      <RouterProvider router={router} />
-  </StrictMode>,
+    </StrictMode>,
+  </CartProvider>
 )
