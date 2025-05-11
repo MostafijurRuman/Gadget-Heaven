@@ -19,15 +19,17 @@ export const CartProvider = ({ children }) => {
 
     const addToWishlist = (item) => {
         setWishlist((prevWishlist) => [...prevWishlist, item]);
+        document.getElementById("wish-list").classList.add("btn-disabled");
+        toast.success(`This Product Added To Your Wishlist`)
     };
 
     const removeFromWishlist = (itemId) => {
-        setWishlist((prevWishlist) => prevWishlist.filter(item => item.id !== itemId));
+        setWishlist((prevWishlist) => prevWishlist.filter(item => item !== itemId));
     };
 
     return (
         
-        <CartContext.Provider value={{ cart, addToCart, removeFromCart }}>
+        <CartContext.Provider value={{ cart,setCart, addToCart, removeFromCart }}>
             <WishlistContext.Provider value={{ wishlist, addToWishlist, removeFromWishlist }}>
                 {children}
             </WishlistContext.Provider>

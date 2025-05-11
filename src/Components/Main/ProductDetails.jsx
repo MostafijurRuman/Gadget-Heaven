@@ -22,8 +22,8 @@ export default function ProductDetails() {
         );
     };
 
-    const { cart, addToCart, removeFromCart } = useContext(CartContext);
-    const { wishlist, addToWishlist, removeFromWishlist } = useContext(WishlistContext);
+    const { addToCart } = useContext(CartContext);
+    const {  addToWishlist } = useContext(WishlistContext);
     return (
         <div className="min-h-screen bg-gray-100">
             {/* Header Section */}
@@ -100,7 +100,7 @@ export default function ProductDetails() {
                             <button onClick={()=>addToCart(product.product_id)} className="btn bg-purple-600 text-white hover:bg-purple-700">
                                 Add To Card <FaCartPlus className="ml-2" />
                             </button>
-                            <button className="btn btn-outline">
+                            <button onClick={()=>addToWishlist(product.product_id)} id="wish-list" className="btn btn-outline">
                                 <FaHeart />
                             </button>
                         </div>
