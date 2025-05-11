@@ -1,14 +1,15 @@
 import { useContext, useEffect, useState } from "react";
 import { LuArrowUpDown } from "react-icons/lu";
 import { CartContext, WishlistContext } from "../../Context/Cart&WishlistContext";
-import { useLoaderData } from "react-router-dom";
-import { FaCheckCircle,FaCartPlus,FaTimesCircle } from "react-icons/fa";
+import { useLoaderData, useNavigate } from "react-router-dom"; // Import useNavigate
+import { FaCheckCircle, FaCartPlus, FaTimesCircle } from "react-icons/fa";
 import { toast } from "react-toastify";
 
 export default function Dashboard() {
-  const { cart, setCart,addToCart, removeFromCart } = useContext(CartContext);
+  const { cart, setCart, addToCart, removeFromCart } = useContext(CartContext);
   const { wishlist, removeFromWishlist } = useContext(WishlistContext);
   const Products = useLoaderData();
+  const navigate = useNavigate(); // Initialize useNavigate
 
   const [cartProduct, setCartProduct] = useState([]);
   const [wishlistProduct, setWishlistProduct] = useState([]);
@@ -46,27 +47,32 @@ export default function Dashboard() {
       toast.warning("Your cart is empty!");
       return;
     }
-    setModalTotalCost(totalCost); 
+    setModalTotalCost(totalCost);
     document.getElementById("payment_modal").showModal();
-    setCart([]); 
-    setCartProduct([]); 
-    setTotalCost(0); 
+    setCart([]);
+    setCartProduct([]);
+    setTotalCost(0);
   };
 
   const handelAddToCartFromWishlist = (productId) => {
-    addToCart(productId);
+    addToCart(productId, totalCost);
     removeFromWishlist(productId);
-  }
+  };
 
   const handleRemoveFromWishlist = (productId) => {
     removeFromWishlist(productId);
     toast.error("Product Removed From Your Wishlist");
-  }
+  };
+
+  const handleCloseModal = () => {
+    document.getElementById("payment_modal").close(); // Close the modal
+    navigate("/"); // Redirect to the home page
+  };
 
   return (
     <div>
       {/* Header Section */}
-      <div className="bg-purple-600 text-white py-10 text-center">
+      <div className="bg-purple-600 text-white py-10 text-center rounded-2xl">
         <h1 className="text-3xl font-bold mb-4">Dashboard</h1>
         <p className="mb-6 max-w-xl mx-auto">
           Explore the latest gadgets that will take your experience to the next level. From smart devices to
@@ -171,9 +177,9 @@ export default function Dashboard() {
                   <h2 className="text-lg font-bold">{product.product_title}</h2>
                   <p className="text-gray-500 text-sm">{product.description}</p>
                   <p className="text-md font-semibold mt-2">Price: ${product.price}</p>
-                  <button onClick={()=>handelAddToCartFromWishlist(product.product_id)} className="btn bg-purple-600 text-white rounded-4xl mt-4 hover:bg-purple-700">
-                                                  Add To Card <FaCartPlus className="ml-2" />
-                                              </button>
+                  <button onClick={() => handelAddToCartFromWishlist(product.product_id)} className="btn bg-purple-600 text-white rounded-4xl mt-4 hover:bg-purple-700">
+                    Add To Card <FaCartPlus className="ml-2" />
+                  </button>
                 </div>
                 <div>
                   <button onClick={() => handleRemoveFromWishlist(product.product_id)}>
@@ -202,11 +208,12 @@ export default function Dashboard() {
               Total: <span>${modalTotalCost}</span>
             </p>
             <div className="modal-action justify-center mt-4">
-              <form method="dialog">
-                <button className="bg-gray-200 text-black py-2 px-6 rounded-full hover:bg-gray-300 transition">
-                  Close
-                </button>
-              </form>
+              <button
+                className="bg-gray-200 text-black py-2 px-6 rounded-full hover:bg-gray-300 transition"
+                onClick={handleCloseModal} // Call handleCloseModal on click
+              >
+                Close
+              </button>
             </div>
           </div>
         </dialog>

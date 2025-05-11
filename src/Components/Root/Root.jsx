@@ -8,6 +8,7 @@ const titles = {
     "/": "Home | Gadget Heaven",
     "/statistics": "Statistics | Gadget Heaven",
     "/dashboard": "Dashboard | Gadget Heaven",
+    "/productdetails": "Product | Gadget Heaven",
 };
 
 export default function Root() {

@@ -12,6 +12,7 @@ import Statistics from './Components/Statistics/Statistics';
 import Dashboard from './Components/Dashboard/Dashboard'
 import ProductDetails from './Components/Main/ProductDetails';
 import { CartProvider } from './Context/Cart&WishlistContext';
+import Faq from './Components/Faq/Faq';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
         element: <Dashboard></Dashboard>,
         loader: () => fetch('../public/Products.json'),
       },
+      {
+        path: "/faq",
+        element: <Faq></Faq>,
+      }
     ],
   },
 ]);

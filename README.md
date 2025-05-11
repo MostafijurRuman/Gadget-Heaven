@@ -1,12 +1,25 @@
-# React + Vite
+# Gadget Heaven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Website Link
+[Visit Gadget Heaven](#) *(Replace `#` with your live website URL)*
 
-Currently, two official plugins are available:
+## Requirement Document
+[View Requirement Document](#) *(Replace `#` with the link to your requirement document)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## React Fundamental Concepts Used
+- Components and Props
+- State and Lifecycle
+- Event Handling
+- Conditional Rendering
+- Lists and Keys
 
-## Expanding the ESLint configuration
+## Data Handling and Management
+- **Context API**: Used for managing global state across the application.
+- **Local Storage**: Used for persisting user preferences and cart data.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+1. **Product Catalog**: Browse a wide range of gadgets with detailed descriptions.
+2. **Search and Filter**: Easily find products using search and filter options.
+3. **Shopping Cart**: Add, remove, and manage items in the cart.
+4. **User Authentication**: Secure login and registration functionality.
+5. **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices.

@@ -6,6 +6,8 @@ export const WishlistContext = createContext();
 export const CartProvider = ({ children }) => {
     const [cart, setCart] = React.useState([]);
     const [wishlist, setWishlist] = React.useState([]);
+    const [totalCostx, setTotalCostx] = React.useState(0);
+    console.log(totalCostx)
 
     const addToCart = (item) => {
         setCart((prevCart) => [...prevCart, item]);
@@ -30,7 +32,7 @@ export const CartProvider = ({ children }) => {
 
     return (
         
-        <CartContext.Provider value={{ cart,setCart, addToCart, removeFromCart }}>
+        <CartContext.Provider value={{ cart,setCart, addToCart, removeFromCart,setTotalCostx }}>
             <WishlistContext.Provider value={{ wishlist, addToWishlist, removeFromWishlist }}>
                 {children}
             </WishlistContext.Provider>
