@@ -25,6 +25,7 @@ export const CartProvider = ({ children }) => {
 
     const removeFromWishlist = (itemId) => {
         setWishlist((prevWishlist) => prevWishlist.filter(item => item !== itemId));
+        
     };
 
     return (
