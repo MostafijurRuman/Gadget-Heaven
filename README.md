@@ -5,7 +5,8 @@ Welcome to **Gadget Heaven**, your one-stop destination for the latest and great
 ---
 
 ## 🌐 Live Website
-[Visit Gadget Heaven](https://gadget-heaven7.surge.sh/)  
+[Visit Gadget Heaven](https://gadget-heaven7.surge.sh/)
+[![Visit Gadget Heaven on Netlify](https://img.shields.io/badge/Live%20Site-Netlify-brightgreen)](https://gadget-heaven7.netlify.app/)
 
 
 ---
