@@ -27,7 +27,7 @@ export default function ProductDetails() {
     return (
         <div className="min-h-screen bg-gray-100">
             {/* Header Section */}
-            <div className="bg-purple-500 text-white pt-12 pb-40 text-center relative z-0">
+            <div className="bg-purple-500 text-white pt-12 pb-40 text-center relative z-0 rounded-2xl p-4">
                 <h1 className="text-3xl font-bold">Product Details</h1>
                 <p className="text-sm mt-2">
                     Explore the latest gadgets that will take your experience to the next level.

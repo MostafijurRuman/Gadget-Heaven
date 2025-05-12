@@ -15,7 +15,7 @@ export default function Dashboard() {
   const [wishlistProduct, setWishlistProduct] = useState([]);
   const [totalCost, setTotalCost] = useState(0);
   const [modalTotalCost, setModalTotalCost] = useState(0);
-  const [activeSection, setActiveSection] = useState("cart"); // State to track active section
+  const [activeSection, setActiveSection] = useState("cart"); 
 
   useEffect(() => {
     // Filter products for the cart

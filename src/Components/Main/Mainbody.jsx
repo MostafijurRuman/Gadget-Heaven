@@ -2,7 +2,7 @@ import { useLoaderData, useNavigate } from "react-router-dom";
 import { FaArrowRight } from 'react-icons/fa';
 import { useState } from "react";
 
-export default function Main() {
+export default function Mainbody() {
     const products = useLoaderData();
     const [selectedCategory, setSelectedCategory] = useState("All");
     const [filteredProducts, setFilteredProducts] = useState(products);

@@ -1,4 +1,4 @@
-import Main from "../Main/Main";
+import Mainbody from "../Main/Mainbody";
 import Hero from "./Hero";
 
 
@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Hero></Hero>
-      <Main></Main>
+      <Mainbody></Mainbody>
     </div>
   )
 }

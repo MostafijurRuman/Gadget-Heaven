@@ -2,7 +2,7 @@
     {
         "product_id": "L001",
         "product_title": "Dell Inspiron 15",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://i.ibb.co.com/Y7nBjvxg/tp.jpg",
         "category": "Laptops",
         "price": 550,
         "description": "Dell Inspiron 15 with 11th Gen Intel i5 processor.",
@@ -14,7 +14,7 @@
     {
         "product_id": "L002",
         "product_title": "HP Pavilion 14",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://computermania.com.bd/wp-content/uploads/2025/01/HP-Pavilion-14-ec0234AU.jpg",
         "category": "Laptops",
         "price": 620,
         "description": "HP Pavilion with Intel i7 and slim design.",
@@ -26,7 +26,7 @@
     {
         "product_id": "L003",
         "product_title": "MacBook Air M2",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/MacBook-Air-M2-13.6-inch-8256GB-midnight-1121.jpg",
         "category": "Laptops",
         "price": 999,
         "description": "Apple MacBook Air with M2 chip.",
@@ -38,7 +38,7 @@
     {
         "product_id": "L004",
         "product_title": "Lenovo IdeaPad Flex 5",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Lenovo-IdeaPad-Flex-5-14ABR8-Ryzen-5-7530U-Integrated-AMD-Radeon-Graphics-14%E2%80%9D-WUXGA-Touch-2-in-1-Laptop-7347.jpg",
         "category": "Laptops",
         "price": 580,
         "description": "2-in-1 convertible laptop with touch display.",
@@ -50,7 +50,7 @@
     {
         "product_id": "L005",
         "product_title": "Asus VivoBook 15",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://i.ibb.co.com/d0h5rDL6/zen.jpg",
         "category": "Laptops",
         "price": 510,
         "description": "Lightweight and fast performance laptop.",
@@ -62,7 +62,7 @@
     {
         "product_id": "L006",
         "product_title": "Acer Aspire 7",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://computermania.com.bd/wp-content/uploads/2025/01/Acer-Aspire-7-A715.png",
         "category": "Laptops",
         "price": 570,
         "description": "Gaming laptop with NVIDIA GTX graphics.",
@@ -86,7 +86,7 @@
     {
         "product_id": "P002",
         "product_title": "Samsung Galaxy S22",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://m.media-amazon.com/images/I/312RRHuQwzL._SL500_.jpg",
         "category": "Phones",
         "price": 850,
         "description": "Flagship Samsung phone with high performance.",
@@ -98,7 +98,7 @@
     {
         "product_id": "P003",
         "product_title": "Google Pixel 6",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://brotherselectronicsbd.com/image/cache/catalog/demo/product/Google/Pixel%206%20Pro/Pixel-6-Pro-3-800x800.jpg",
         "category": "Phones",
         "price": 599,
         "description": "Google's latest phone with stock Android experience.",
@@ -110,7 +110,7 @@
     {
         "product_id": "A001",
         "product_title": "Logitech MX Master 3",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://www.nexus.com.bd/images/detailed/11/Logitech_MX_Master_3_Advanced_Wireless_Mouse__Mid_Grey.jpg",
         "category": "Accessories",
         "price": 99,
         "description": "Advanced ergonomic wireless mouse.",
@@ -122,7 +122,7 @@
     {
         "product_id": "A002",
         "product_title": "Anker Soundcore Headphones",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://i.ibb.co.com/RTqB1Wgm/dd.jpg",
         "category": "Accessories",
         "price": 69,
         "description": "Noise-canceling over-ear headphones.",
@@ -134,7 +134,7 @@
     {
         "product_id": "A003",
         "product_title": "Samsung Galaxy Buds Pro",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://i.ibb.co.com/k2fsgWsD/cc.jpg",
         "category": "Accessories",
         "price": 199,
         "description": "Premium true wireless earbuds with ANC.",
@@ -146,7 +146,7 @@
     {
         "product_id": "A004",
         "product_title": "Apple AirPods Pro",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://i.ibb.co.com/KjgfRHCH/pp.jpg",
         "category": "Accessories",
         "price": 249,
         "description": "Active noise cancellation and transparency mode.",
@@ -158,7 +158,7 @@
     {
         "product_id": "T001",
         "product_title": "Apple iPad Pro 11",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://i.ibb.co.com/wNTRSRw6/tb.jpg",
         "category": "Tablets",
         "price": 799,
         "description": "Apple iPad Pro with M1 chip and Liquid Retina display.",
@@ -170,7 +170,7 @@
     {
         "product_id": "T002",
         "product_title": "Samsung Galaxy Tab S8",
-        "product_image": "https://i.ibb.co.com/ycTDP86c/IPHone-16-pro-mux.webp",
+        "product_image": "https://i.ibb.co.com/qYGLZ8nz/tub.jpg",
         "category": "Tablets",
         "price": 699,
         "description": "Samsung Galaxy Tab with AMOLED display and S Pen.",
